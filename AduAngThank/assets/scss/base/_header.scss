@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+#top_header{
+    background-color: rgb(34, 34, 34);
+    position: relative  ;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 46px;
+    z-index: 222;
+}
+
+#main_top_header{
+    padding: none;
+    display: inline-block;
+}
+
+.fa-bookmark{
+    font-size: 14px;    
+    color: rgb(82, 82, 82);
+    line-height: 1.2;
+    // text-align: left;
+    position: absolute;
+    left: 5px;
+    // top: 13.85px;
+    padding: 7px;
+    z-index: 225;
+}
+
+#bookmark_word{
+    font-size: 14px;    
+    color: rgb(82, 82, 82);
+    line-height: 1.2;
+    // text-align: left;
+    position: absolute;
+    left: 25px;
+    // top: 13.85px;
+    padding: 7px 0px;
+    z-index: 225;
+}
+.fa-gear{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    left: 1650.044px;
+    // top: 13.85px;
+    padding: 7px 0px;
+    z-index: 223;
+}
+
+#setting_word{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    left: 1670.044px;
+    // top: 13.85px;
+    padding: 7px 0px;
+    z-index: 223;
+}
+
+.fa-lock{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    left: 1780.044px;
+    // top: 13.85px;
+    padding: 7px 0px;
+    z-index: 223;
+}
+
+#login-word{
+    font-size: 14px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    left: 1800.044px;
+    // top: 13.85px;
+    padding: 7px 0px;
+    z-index: 223;
+}
+
+#bottom_header{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 80px;
+    z-index: 239;
+    
+}
+
+// img {
+//     border: 2px solid #080000;
+//     font-size: 20px;
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     line-height: 0.75;
+//     text-align: left;
+//     position: absolute;
+//     // left: 46.87px;
+//     padding: 7px ;
+//     top: 25px;
+//     z-index: 233;
+//   }
+
+#img1{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 15px;
+    width: 198px;
+    height: 50px;
+    text-align: left;
+    position: absolute;
+    left: 6px;
+    padding: 7px ;
+    top: 15px;
+    z-index: 233;
+}
+
+.fa-heart{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 0.733;
+    text-align: right;
+    position: absolute;
+    left: 1770.688px;
+    top: 26px;
+    z-index: 237;
+}
+
+.fa-cart-shopping{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 0.733;
+    text-align: right;
+    position: absolute;
+    left: 1830.688px;
+    top: 26px;
+    z-index: 237;
+}
+
+#nav_menu{
+    text-align: center;
+    display: inline-block;
+    top: 26px;
+    z-index: 237;
+}
+
+#nav_menu a{
+    color: rgb(5, 0, 14);
+}
+
+#nav_menu li {
+    font-size: 14px;
+    color: rgb(5, 0, 14);
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    position: relative;
+    left: 542.937px;
+    top: 30px;
+    z-index: 229;
+    margin-right: 54px;
+    
+}
+
+#nav_menu a:hover {
+    color: rgb(130, 98, 181);
+}
+
+#nav_menu li .fa-magnifying-glass:hover{
+    text-align: center;
+    color: rgb(5, 0, 14);
+}
